@@ -119,6 +119,9 @@ nav {
 .wallsDownloadBtn {
   display: contents;
 }
+.wcmShadow {
+position: sticky;
+top: 0;
 /*About*/
 .aboutMe {
   margin: 20px;
@@ -209,6 +212,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f1f1f1;
   }
   .wallpapers {
     display: flex;
