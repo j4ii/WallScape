@@ -42,28 +42,23 @@ body {
   font-size: 60px;
   padding: 10px;
   margin: 10px;
-  background: linear-gradient(175deg, #8BC34A 40%, #89ff00 60%);
+  background: linear-gradient(175deg, #8bc34a 40%, #89ff00 60%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
-.navigation {
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #ffffff;
-  box-shadow: 0px -1px 10px 0px hsla(0, 0%, 0%, 0.2);
-  height: 60px;
-  width: 100%;
+  box-shadow: 0px 0px 20px 0px hsla(0, 0%, 0%, 30%);
   z-index: 1;
-}
-nav {
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .navUL {
   list-style: none;
@@ -84,7 +79,7 @@ nav {
   font-size: 20px;
 }
 .fa-solid:hover {
-  color: #4CAF50;
+  color: #4caf50;
 }
 .wallsCategory {
   display: flex;
@@ -93,8 +88,8 @@ nav {
 }
 .wallsCategoryMenu > a > button {
   padding: 10px;
-  background-color: #4cae4fe6;
-  margin: 0 5px;
+  background-color: #4caf50;
+  margin: 5px;
   border-radius: 25px;
   border: none;
   color: #ffffff;
@@ -104,7 +99,8 @@ nav {
   color: rgb(255, 255, 255);
 }
 .wallsCategoryMenu > a > button:hover {
-  background-color: #4CAF50;
+  background-color: #2e7d32;
+  transform: translateY(-5px);
 }
 .column {
   flex: 1;
@@ -122,62 +118,56 @@ nav {
 .wallsDownloadBtn {
   display: contents;
 }
-.wcmShadow {
-  position: sticky;
-  top: 0;
-}
 /*About*/
-.aboutMe {
+#aboutMe {
   margin: 20px;
   line-height: 2;
+  border-bottom: 1px solid #9e9e9e;
 }
-.aboutMe > h1 {
+#aboutMe > h1 {
   text-align: center;
   margin: 20px 10px;
   font-size: 30px;
 }
-.aboutMe > h1:nth-child(2) {
+#aboutMe > h1:nth-child(2) {
   text-align: left;
   margin: 10px;
   font-size: 20px;
 }
-.aboutMe > h2 {
+#aboutMe > h2 {
   margin: 20px;
   font-size: 20px;
 }
-.aboutMe > h3 {
+#aboutMe > h3 {
   margin: 20px;
   padding: 0 0 60px 0;
 }
 /*About End*/
 /*Contact*/
-.contactMe {
+#contactMe {
   margin: 20px;
   line-height: 2;
+  border-bottom: 1px solid #9e9e9e;
 }
-.contactMe > h1 {
+#contactMe > h1 {
   text-align: center;
   margin: 20px 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
-.contactMe > h2,
+#contactMe > h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 10px;
-}
-h3:last-child {
-  padding: 0 0 60px 0;
 }
 /*Contact End*/
 footer {
   margin-bottom: 70px;
 }
-
 .copyRights {
   text-align: center;
   line-height: 2;
 }
-
 @media all and (max-width: 768px) {
   .wallpapers {
     display: grid;
@@ -190,16 +180,23 @@ footer {
     align-items: center;
     background-color: #ffffff;
     padding: 20px 0;
-    box-shadow: 0rem 0rem 10px 0px #0000004d;
     margin: 20px 0;
+  }
+  .wcmShadow {
+    position: sticky;
+    top: 0;
+    box-shadow: 0rem 0rem 20px 0px hsla(0, 0%, 0%, 30%);
   }
 }
 @media screen and (min-width: 769px) {
   .wcmShadow {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    box-shadow: 0rem 0rem 20px 0px hsla(0, 0%, 0%, 30%);
   }
   .wallpapers {
     display: flex;
