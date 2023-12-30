@@ -40,9 +40,8 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 60px;
-  padding: 10px;
-  margin: 10px;
-  background: linear-gradient(175deg, #8bc34a 40%, #89ff00 60%);
+  font-family: "Font Awesome 6 Free", sans-serif;
+  background: linear-gradient(180deg, #8bc34a 40%, #89ff00 60%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -76,7 +75,7 @@ nav {
 }
 .fa-solid {
   color: #000000;
-  font-size: 20px;
+  font-size: 25px;
 }
 .fa-solid:hover {
   color: #4caf50;
@@ -101,6 +100,7 @@ nav {
 .wallsCategoryMenu > a > button:hover {
   background-color: #2e7d32;
   transform: translateY(-5px);
+  transition: background-color 0.5s;
 }
 .column {
   flex: 1;
@@ -164,10 +164,12 @@ h5 {
 footer {
   margin-bottom: 70px;
 }
+
 .copyRights {
   text-align: center;
   line-height: 2;
 }
+
 @media all and (max-width: 768px) {
   .wallpapers {
     display: grid;
