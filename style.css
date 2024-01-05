@@ -66,7 +66,6 @@ nav {
 }
 .navBTN {
   display: contents;
-  cursor: pointer;
 }
 .navLINK {
   text-decoration: none;
@@ -91,7 +90,6 @@ nav {
   border: none;
   color: #ffffff;
   text-transform: uppercase;
-  cursor: pointer;
 }
 .wallsCategoryMenu > button > a {
   text-decoration: none;
