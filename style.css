@@ -10,10 +10,6 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
 }
-.homeWallpaper {
-  width: 100vw;
-  height: 100vh;
-}
 .homeWallpaper > img {
   height: 100%;
   width: 100%;
@@ -91,7 +87,6 @@ nav {
   border: none;
   color: #ffffff;
   text-transform: uppercase;
-  cursor: pointer;
 }
 .wallsCategoryMenu > button > a {
   text-decoration: none;
