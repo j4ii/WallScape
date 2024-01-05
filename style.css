@@ -10,11 +10,15 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
 }
+.homeWallpaper {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
 .homeWallpaper > img {
-  height: 100%;
+  height: 500px;
   width: 100%;
   position: absolute;
-  top: 0;
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,8 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  top: 0;
+  height: 500px;
   width: 100%;
 }
 .homeTitle > h1 {
@@ -63,6 +66,7 @@ nav {
 }
 .navBTN {
   display: contents;
+  cursor: pointer;
 }
 .navLINK {
   text-decoration: none;
@@ -87,6 +91,7 @@ nav {
   border: none;
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .wallsCategoryMenu > button > a {
   text-decoration: none;
