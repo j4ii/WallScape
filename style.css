@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.emoji {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "NotoColorEmoji",
+    "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+}
 body {
   color: #000000;
   min-height: 100vh;
