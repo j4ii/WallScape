@@ -128,6 +128,7 @@ nav {
   border: none;
   color: #ffffff;
   text-transform: uppercase;
+  box-shadow: 0 2px 2px 0 #0000004d;
 }
 .wallsCategoryMenu > button > a {
   text-decoration: none;
@@ -135,9 +136,9 @@ nav {
 }
 .wallsCategoryMenu > a > button:hover {
   background-color: #2e7d32;
-  -webkit-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  transform: translateY(-5px);
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
   -webkit-transition: background-color 1s;
   -o-transition: background-color 1s;
   transition: background-color 1s;
