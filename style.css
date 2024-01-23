@@ -18,16 +18,16 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
 }
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #8bc34a;
   border-radius: 9999px;
   height: 25%;
 }
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background-color: transparent;
   border-radius: 9999px;
 }
@@ -135,18 +135,6 @@ nav {
   -ms-flex-align: center;
   align-items: center;
   overflow-x: auto;
-}
-.wallsCategory::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-.wallsCategory::-webkit-scrollbar-thumb {
-  background-color: #8bc34a;
-  border-radius: 9999px;
-}
-.wallsCategory::-webkit-scrollbar-track {
-  background-color: transparent;
-  border-radius: 9999px;
 }
 .wallsCategoryMenu > a > button {
   padding: 10px;
