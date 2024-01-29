@@ -34,7 +34,12 @@ body {
 .loading-container {
   background-color: #4caf50;
   color: #fff;
-  height: 100vh;
+   position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
   display: none;
   justify-content: center;
   align-items: center;
