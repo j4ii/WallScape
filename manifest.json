@@ -1,7 +1,7 @@
 {
-  "name": "WallScape: YOUR WALL, YOUR STORY",
+  "name": "WallScape: Your Wall, Your Story",
   "short_name": "WallScape",
-  "description": "Revamp your space with our premium wallpapers! Explore a diverse collection of trendy designs and timeless classics. Elevate your interior with vibrant colors and unique textures. Discover the perfect backdrop for your style at WallScape.",
+  "description": "Revamp your space with our premium wallpapers!, Discover the perfect backdrop for your style at WallScape.",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -13,25 +13,5 @@
       "type": "image/png"
     }
   ],
-  "browser_action": {
-    "default_icon": {
-      "192": "/logo/icon.png"
-    },
-    "default_title": "WallScape: YOUR WALL, YOUR STORY"
-  },
-  "manifest_version": 2,
-  "permissions": ["storage", "geolocation"],
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
-  },
-  "web_accessible_resources": [
-    "/Wallpapers/Abstract/*",
-    "/Wallpapers/Amoled/*",
-    "/Wallpapers/Games/*",
-    "/Wallpapers/Minimal/*",
-    "/Wallpapers/Nature/*",
-    "/Wallpapers/Shows/*",
-    "/Artwork/*",
-    "/logo/*"
-  ]
+  "manifest_version": 2
 }
