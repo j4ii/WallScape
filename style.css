@@ -229,12 +229,9 @@ nav {
 }
 .wallsCategoryMenu > a > button:hover {
   background-color: #2e7d32;
-  -webkit-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-  -webkit-transition: background-color 1s;
-  -o-transition: background-color 1s;
-  transition: background-color 1s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 .walls {
   width: 100%;
