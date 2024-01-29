@@ -7,7 +7,7 @@
   "display_override": ["window-controls-overlay", "minimal-ui"],
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://ittsjai.github.io/WallScape/index.html",
   "icons": [
     {
       "src": "logo/icon.png",
