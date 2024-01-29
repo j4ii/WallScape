@@ -2,17 +2,36 @@
   "name": "WallScape: YOUR WALL, YOUR STORY",
   "short_name": "WallScape",
   "description": "Revamp your space with our premium wallpapers! Explore a diverse collection of trendy designs and timeless classics. Elevate your interior with vibrant colors and unique textures. Discover the perfect backdrop for your style at WallScape.",
+  "start_url": "index.html",
+  "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
-  "display_override": ["window-controls-overlay", "minimal-ui"],
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "https://ittsjai.github.io/WallScape/index.html",
   "icons": [
     {
-      "src": "logo/icon.png",
+      "src": "/logo/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "192": "/logo/icon.png"
+    },
+    "default_title": "WallScape: YOUR WALL, YOUR STORY"
+  },
+  "manifest_version": 2,
+  "permissions": ["storage", "geolocation"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    "/Wallpapers/Abstract/*",
+    "/Wallpapers/Amoled/*",
+    "/Wallpapers/Games/*",
+    "/Wallpapers/Minimal/*",
+    "/Wallpapers/Nature/*",
+    "/Wallpapers/Shows/*",
+    "/Artwork/*",
+    "/logo/*"
   ]
 }
