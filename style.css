@@ -32,9 +32,10 @@ body {
   border-radius: 9999px;
 }
 .loading-container {
+  min-height: 100vh;
   background-color: #4caf50;
   color: #fff;
-   position: fixed;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
