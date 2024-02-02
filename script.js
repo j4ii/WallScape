@@ -9,8 +9,6 @@ var links = document.querySelectorAll("a");
 links.forEach(function (link) {
   link.addEventListener("click", function (event) {
     event.preventDefault();
-    setTimeout(function () {
-      window.location.href = link.href;
-    }, 500);
+    window.location.href = link.href;
   });
 });
