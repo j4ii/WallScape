@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: default;
+}
 ::selection {
   background-color: hsl(122deg 100% 50% / 50%);
 }
@@ -195,12 +200,6 @@ nav {
   height: 60px;
   width: 100%;
 }
-.navBTN {
-  display: contents;
-}
-.navLINK {
-  text-decoration: none;
-}
 .fa-solid {
   color: #000000;
   font-size: 25px;
@@ -217,7 +216,11 @@ nav {
   align-items: center;
   overflow-x: auto;
 }
-.wallsCategoryMenu > a > button {
+.wallsCategoryMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 10px;
   background-color: #4caf50;
   margin: 5px;
@@ -227,11 +230,11 @@ nav {
   font-size: 1rem;
   box-shadow: 0 2px 2px 0 #0000004d;
 }
-.wallsCategoryMenu > a > button:hover {
+.wallsCategoryMenu:hover {
   background-color: #2e7d32;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
 }
 .walls {
   width: 100%;
@@ -241,10 +244,12 @@ nav {
   position: relative;
   background-color: #ddd;
   overflow: hidden;
-  display: grid;
+  display: flex;
   border: none;
   border-radius: 5px;
   margin: 0 0 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .wallsDownloadBtn::before {
@@ -314,6 +319,9 @@ h3,
 h4,
 h5 {
   margin: 10px;
+}
+span > a {
+  color: #1b5e20;
 }
 /*Contact End*/
 footer {
