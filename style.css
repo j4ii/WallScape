@@ -461,4 +461,7 @@ footer {
   .fa-solid {
     color: #ffffff;
   }
+  .loading-container {
+    background-color: #181818;
+  }
 }
