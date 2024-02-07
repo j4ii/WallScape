@@ -210,9 +210,6 @@ nav {
 }
 .fa-solid:hover {
   color: #2e7d32;
-  -webkit-transition: color 1s;
-  -o-transition: color 1s;
-  transition: color 1s;
 }
 .wallsCategory {
   display: -webkit-box;
