@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,10 +22,10 @@ a {
     "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
 }
 body {
-  color: #000000;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: #ffffff;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -205,7 +209,10 @@ nav {
   font-size: 25px;
 }
 .fa-solid:hover {
-  color: #4caf50;
+  color: #2e7d32;
+  -webkit-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
 }
 .wallsCategory {
   display: -webkit-box;
@@ -321,7 +328,7 @@ h5 {
   margin: 10px;
 }
 span > a {
-  color: #4CAF50;
+  color: #4caf50;
 }
 /*Contact End*/
 footer {
@@ -433,5 +440,25 @@ footer {
     -webkit-box-shadow: 0px 1px 10px 0px hsla(0, 0%, 0%, 0.3);
     box-shadow: 0px 1px 10px 0px hsla(0, 0%, 0%, 0.3);
     z-index: 1;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #181818;
+    --text-color: #ffffff;
+  }
+  .wallsCategoryMenu {
+    background-color: #303030;
+  }
+  .wcm {
+    background-color: #000000;
+    box-shadow: 0px 1px 10px 0px hsl(0deg 0% 0%);
+  }
+  nav {
+    background-color: #101010;
+    box-shadow: 0px 0px 10px 0px hsl(0, 0%, 0%);
+  }
+  .fa-solid {
+    color: #ffffff;
   }
 }
