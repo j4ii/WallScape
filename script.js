@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(".loading-container").style.display = "flex";
   setTimeout(function () {
     document.querySelector(".loading-container").style.display = "none";
-  }, 5000);
+  }, 2500);
 });
 const list = document.querySelectorAll(".wallsCategoryLink");
 function activeLink() {
