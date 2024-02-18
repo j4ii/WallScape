@@ -1,9 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelector(".loading-container").style.display = "flex";
-  setTimeout(function () {
-    document.querySelector(".loading-container").style.display = "none";
-  }, 2500);
-});
 const list = document.querySelectorAll(".wallsCategoryLink");
 function activeLink() {
   const activeIndex = Array.from(list).indexOf(this);
@@ -16,3 +10,22 @@ const activeIndex = localStorage.getItem("activeIndex");
 if (activeIndex !== null) {
   list[activeIndex].classList.add("active");
 }
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.querySelector(".loading-screen").style.display = "none";
+    document.querySelector(".content").style.display = "block";
+  }, 2500);
+});
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.querySelector(".homeWallpaper").style.height = "0";
+    2500;
+    document.querySelector(".content").style.display = "block";
+  }, 2500);
+  setTimeout(function () {
+    document.querySelector(".homeTitle").style.opacity = "0";
+  }, 2500);
+  setTimeout(function () {
+    document.querySelector("header").style.display = "none";
+  }, 10000);
+});
