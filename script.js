@@ -24,7 +24,7 @@
     }, 2500);
     setTimeout(function () {
       document.querySelector("header").style.display = "none";
-    }, 5000);
+    }, 6000);
   });
 }
 {
