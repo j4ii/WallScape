@@ -1,9 +1,9 @@
 const CACHE_NAME = "WallScape-cache-v1";
 const urlsToCache = [
-  "https://ittsjai.github.io/WallScape/index.html",
-  "https://ittsjai.github.io/WallScape/style.css",
-  "https://ittsjai.github.io/WallScape/script.js",
-  "https://ittsjai.github.io/WallScape/logo/icon.png",
+  "https://j4ii.github.io/WallScape/index.html",
+  "https://j4ii.github.io/WallScape/style.css",
+  "https://j4ii.github.io/WallScape/script.js",
+  "https://j4ii.github.io/WallScape/logo/icon.png",
 ];
 self.addEventListener("install", function (event) {
   event.waitUntil(
